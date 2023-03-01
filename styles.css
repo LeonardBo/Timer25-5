@@ -1,0 +1,81 @@
+body{
+  background-color:#27ae60;
+}
+#title{
+  text-align:center;
+  font-size:40px;
+  font-weight:bold;
+  margin-top:150px;
+}
+#break-label, #session-label{
+  text-align:center;
+  margin-top:20px;
+  font-size:20px;
+  font-weight:bold;
+  letter-spacing:-1px;
+  margin:auto
+}
+
+#asset{
+  width:200px;
+  height:100px;
+  border:5px solid #1abc9c;
+  border-radius:15px;
+  margin:auto;
+  text-align:center;
+  margin-top:120px;
+  padding-top:25px;
+  font-size:20px;
+  font-weight:bold;
+}
+#timer-label, #time-left{
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  letter-spacing: 7px;
+  font-weight: bold;
+  border: 5px solid #091d048b;
+  width: 200px;
+  border-radius: 10px;
+}
+#timer-label{
+border-bottom:0
+}
+#time-left{
+border-top:0
+}
+.timer{
+  display:block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight:bold;
+  grid-template-columns: 50px 70px 50px;
+}
+.play{
+  margin: auto;
+}
+#session, #break{
+display:grid;
+grid-template-columns: 50px 50px 50px;
+margin:auto;
+justify-content:center;
+text-align:center;
+margin-top:6px;
+}
+#session-length, #break-length{
+margin-top:1px;
+font-size:25px
+}
+.timer-wrapper{
+margin:auto;
+justify-content:center;
+text-align:center;
+}
+#start_stop, #reset{
+margin-top:10px;
+}
+.wrapper{
+  margin-top:300px;
+}
